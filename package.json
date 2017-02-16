@@ -1,0 +1,32 @@
+{
+  "name": "jam-vote-app",
+  "version": "1.0.0",
+  "description": "\"A voting utility for app for a just a minute quiz event\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raisedadead/jam-vote-app.git"
+  },
+  "keywords": [
+    "voting",
+    "utility",
+    "quiz"
+  ],
+  "author": "\"Mrugesh Mohapatra\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raisedadead/jam-vote-app/issues"
+  },
+  "homepage": "https://github.com/raisedadead/jam-vote-app#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
