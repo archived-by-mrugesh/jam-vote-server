@@ -1,5 +1,5 @@
 {
-  "name": "jam-vote-app",
+  "name": "jam-vote-server",
   "version": "1.0.0",
   "description": "\"A voting utility for app for a just a minute quiz event\"",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raisedadead/jam-vote-app.git"
+    "url": "git+https://github.com/raisedadead/jam-vote-server.git"
   },
   "keywords": [
     "voting",
@@ -20,9 +20,9 @@
   "author": "\"Mrugesh Mohapatra\"",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/raisedadead/jam-vote-app/issues"
+    "url": "https://github.com/raisedadead/jam-vote-server/issues"
   },
-  "homepage": "https://github.com/raisedadead/jam-vote-app#readme",
+  "homepage": "https://github.com/raisedadead/jam-vote-server#readme",
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-core": "^6.23.1",
@@ -46,5 +46,8 @@
     "immutable": "^3.8.1",
     "redux": "^3.6.0",
     "socket.io": "^1.7.3"
+  },
+  "directories": {
+    "test": "test"
   }
 }
